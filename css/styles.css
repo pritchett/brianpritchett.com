@@ -1,0 +1,33 @@
+body {
+    background-color: #1c1c1c;
+}
+
+#content {
+    margin-top: 15%;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.circled {
+    height: 100%;
+    border-radius: 200px;
+    border: 10px solid transparent;
+    
+}
+
+.circled:hover {
+    border: 10 px solid #FFFFFF;
+}
+
+a {
+    height: 100%;
+    width: auto;
+}
+
+img:hover {
+    background-color: #FFFFFF;
+}
