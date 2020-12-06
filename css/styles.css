@@ -19,28 +19,40 @@ a {
     width: auto;
 }
 
+img {
+    width: 100%;
+}
 img:hover {
     background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 1064px) {
+
+@media screen and (min-width: 401px) and (max-width: 1134px) {
+    #content {
+	margin-top: 15%;
+    }
+    
     #links {
 	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
     }
 
     img {
 	background-color: #FFFFFF;
-	width: 100%
     }
 }
 
-@media screen and (min-width: 1065px) {
+@media screen and (min-width: 1135px) {
     #content {
 	margin-top: 15%
     }
-    
+    .circle {
+	height: 200px;
+	width: auto;
+    }
+    img {
+	width: auto;
+    }
     #links {
 	display: flex;
 	justify-content: center;
